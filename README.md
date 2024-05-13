@@ -28,6 +28,7 @@ Steps to start the application:
      jwt token will be stored in client side.
    * You can user AuthencateToken middleware to authenticate before redirecting to access any data.
   7. Another Server is running on port 3000:
+  8. run server 2: npm run devStart
      This server handles messages between users:
      Tech used : socket.io, MongoDB connection
      * Implemented socket functionalities :
