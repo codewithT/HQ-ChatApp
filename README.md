@@ -29,6 +29,8 @@ Steps to start the application:
    * You can user AuthencateToken middleware to authenticate before redirecting to access any data.
   7. Another Server is running on port 3000:
   8. run server 2: npm run devStart
+     * To know better understanding for user and messages interaction run index.html after ran above command.
+     * Now add another user to server opening index.html on another tab and start sending messages.
      * This server handles messages between users:
      Tech used : socket.io, MongoDB connection
      * Implemented socket functionalities :
