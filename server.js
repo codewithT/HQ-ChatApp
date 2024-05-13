@@ -12,7 +12,7 @@ const api = new openai(apiKey);
 // MongoDB connection
 async function connectToDB() {
   try {
-    await mongoose.connect('mongodb+srv://user:user@cluster0.rtuuryj.mongodb.net/ChatDatabase', {
+    await mongoose.connect('//your mongodb link', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
