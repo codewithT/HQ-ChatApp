@@ -3,11 +3,11 @@ Real Time Chat Application Project.(BACKEND)
 Tech Stack used: Node.js, MongoDB, html, css , js.
 
 Steps to start the application:
-* installing nessasary dependancies : npm install
-This Applications runs on 2 servers:
+* Installing nessasary dependancies : npm install
+* This Applications runs on 2 servers:
         1. authentication server.
         2. DataManagement server.
-Both the server connects to Database. 
+* Both the server connects to Database. 
 1. authentication server maintains authentication and authorization to access different content using jwt tokens.
 2. Starting the server : npm run devStart2
 3. server started on port 4000.
