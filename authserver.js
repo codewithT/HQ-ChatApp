@@ -29,7 +29,7 @@ const mongoose = require("mongoose")
 // mongodb connection:
 async function connectToDB(){
   try {
-      await mongoose.connect("mongodb+srv://user:user@cluster0.rtuuryj.mongodb.net/ChatDatabase")
+      await mongoose.connect("")
 
       console.log("success!!!!!!!!!!!!!");
   } catch (error) {
