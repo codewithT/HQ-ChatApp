@@ -13,7 +13,7 @@ Steps to start the application:
 3. server started on port 4000.
 4. Connection to MongoDB:
    used mongoose to connect with mongodb.
-6. routes in authServer server:
+6. Api's in authServer server:
    * /users - signup page for entering details to email and password and these stored in mongodb database
      Mongodb schema designed in model/user.js.
      api request : https://localhost:4000/users
